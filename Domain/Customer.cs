@@ -14,6 +14,9 @@ namespace Domain
 
         [DataMember]
         public string CompanyName { get; set; }
+
+        [DataMember]
+        public string CustomerId{ get; set; }
     }
 
     [DataContract]
